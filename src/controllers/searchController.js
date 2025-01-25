@@ -19,7 +19,7 @@ const toggleSearch = async (req, res) => {
     return res.status(400).json({ type: 'error', message: 'A search is already in progress.' });
   }
 
-  // Create a new search document
+  // Create a new search documen
   const search = new Search({
     rangeStart,
     rangeEnd,
